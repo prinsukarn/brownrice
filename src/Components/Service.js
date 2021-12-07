@@ -1,4 +1,5 @@
 import React from 'react';
+import GraphicDesign from './GraphicDesign';
 
 function Service(props) {
     return (
@@ -8,50 +9,56 @@ function Service(props) {
           <div className="container" data-aos="fade-up">
             <div className="section-title">
               <h2>Services</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
-                 Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+              {/* <p>At Brownrice Technology, we offer wide range of servicess including the following:</p> */}
             </div>
             <div className="row">
               <div className="col-md-6">
                 <div className="icon-box" data-aos="fade-up" data-aos-delay={100}>
-                  <i className="bi bi-briefcase" />
+                  <i className="bi bi-bezier" />
                   <h4><a href="#">Graphic Design</a></h4>
-                  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                  <p>Graphic design is a great way to show off how your brand thinks one step ahead of the competition.
+                     At Brownrice Technology, we offer a wide range of graphic design services... <a href={<GraphicDesign/>}>See More</a></p>
+                  
                 </div>
               </div>
               <div className="col-md-6 mt-4 mt-md-0">
                 <div className="icon-box" data-aos="fade-up" data-aos-delay={200}>
-                  <i className="bi bi-card-checklist" />
+                  <i className="bi bi-currency-exchange" />
                   <h4><a href="#">Digital Marketing</a></h4>
-                  <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                  <p>We help you reach your targeted audience in a cost-effective and measurable way. Our digital marketing services includes Search Engine Optimization, ...<a href="/">See more</a> </p>
                 </div>
               </div>
               <div className="col-md-6 mt-4 mt-md-0">
                 <div className="icon-box" data-aos="fade-up" data-aos-delay={300}>
-                  <i className="bi bi-bar-chart" />
+                  <i className="bi bi-globe" />
                   <h4><a href="#">Web Development</a></h4>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                  <p>We  design, build, support, and evolve all types of web-based software to deliver websites, 
+                    web portals, and other web solutions that bring about digital transformation and enhance business workflows....<a href="#">See more</a></p>
                 </div>
               </div>
               <div className="col-md-6 mt-4 mt-md-0">
                 <div className="icon-box" data-aos="fade-up" data-aos-delay={400}>
-                  <i className="bi bi-binoculars" />
+                  <i className="bi bi-phone" />
                   <h4><a href="#">App Development</a></h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  <p> Our app development services includes expert business analysis, design and development of your mobile application from idea to launch,
+                     integrating the new product 
+                     {/* into your infrastructure and providing further optimization and scale-up on demand */}
+                     ...<a href="#">See more</a></p>
                 </div>
               </div>
               <div className="col-md-6 mt-4 mt-md-0">
                 <div className="icon-box" data-aos="fade-up" data-aos-delay={500}>
-                  <i className="bi bi-brightness-high" />
+                  <i className="bi bi-people" />
                   <h4><a href="#">IT Consultation</a></h4>
-                  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                  <p> AT Brownrice Technology, our IT experts support your IT initiatives byproviding strategic, architectural, operational and implementation planning....<a href="#">See more</a></p>
                 </div>
               </div>
               <div className="col-md-6 mt-4 mt-md-0">
                 <div className="icon-box" data-aos="fade-up" data-aos-delay={600}>
-                  <i className="bi bi-calendar4-week" />
+                  <i className="bi bi-hdd-network" />
                   <h4><a href="#">Networking</a></h4>
-                  <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                  <p>From virtualization to cloud computing to social networks, networking is at the center of the revolution
+                     in how people communicate and companies leverage operational flexibility and efficiency....<a href="#"> See more</a> </p>
                 </div>
               </div>
             </div>

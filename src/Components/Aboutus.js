@@ -1,4 +1,6 @@
 import React from 'react';
+import { AiOutlineAim, AiFillEye, AiOutlineContacts } from "react-icons/ai";
+import {MdOutlineMiscellaneousServices} from "react-icons/md";
 
 function Aboutus(props) {
     return (
@@ -24,24 +26,28 @@ function Aboutus(props) {
                 <div className="icon-boxes d-flex flex-column justify-content-center">
                   <div className="row">
                     <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay={100}>
-                      <i className="bx bx-receipt" />
-                      <h4></h4>
-                      <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                      {/* <i className="bi bi-people" /> */}
+                      <AiOutlineAim style={{fontSize:"50px",color:"#47AD4D"}}/>
+                      <h4>Mission</h4>
+                      <p>To enable people all around the globe realize their potential and bring change to the society.</p>
                     </div>
                     <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay={200}>
-                      <i className="bx bx-cube-alt" />
-                      <h4>Ullamco laboris nisi</h4>
-                      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                      <AiFillEye style={{fontSize:"50px",color:"#47AD4D"}}/>
+                      <h4>Vision</h4>
+                      <p>Our vision is to create a better opportunity and growth in the society by helping our clients and business owners empower themselves with the technology.</p>
                     </div>
                     <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay={300}>
-                      <i className="bx bx-images" />
-                      <h4>Labore consequatur</h4>
-                      <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                     <MdOutlineMiscellaneousServices style={{fontSize:"50px",color:"#47AD4D"}}/>
+                      <h4>Services</h4>
+                      <p>We offer a wide range of IT services including Web Development, App Development...<a href="#services">See more</a></p>
                     </div>
                     <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay={400}>
-                      <i className="bx bx-shield" />
-                      <h4>Beatae veritatis</h4>
-                      <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                     <AiOutlineContacts style={{fontSize:"50px",color:"#47AD4D"}}/>
+                      <h4>Contact</h4>
+                      <p>We can be reached anytime via:<br/>
+                        Call: 9840032254 | 98871712695<br/>
+                        Email: brownricetechnology@gmail.com
+                      </p>
                     </div>
                   </div>
                 </div>{/* End .content*/}

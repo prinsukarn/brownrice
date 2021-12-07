@@ -9,9 +9,12 @@ function Hero(props) {
           <div className="row">
             <div className="col-xl-6">
               <h1>Expect Excellence with <h1 style={{color:"#47AD4D"}}>Brownrice Technology</h1></h1>
-              <h2>We are team of enthusiastic professionals making websites with passion.</h2>
+              {/* <h2>We are team of enthusiastic professionals .</h2> */}
               <a href="#about" className="btn-get-started scrollto">Get Started</a>
             </div>
+             {/* <div className="col-xl-6">
+              <img src="./assets/img/hero.gif" href="" width="100%"></img>
+            </div> */}
           </div>
         </div>
       </section>{/* End Hero */}
